@@ -17,9 +17,9 @@ class CreateTripsTable extends Migration
             $table->id();
             $table->string('title',50);
             $table->string('where',100);
-            $table->float('cost', 8, 2);
-            $table->date('from');
-            $table->date('to');
+            // $table->float('cost', 8, 2);
+            // $table->date('from');
+            // $table->date('to');
             $table->tinyInteger('aviable',)->unsigned()->default(1);
             $table->text('description')->nullable();
             $table->timestamps();
