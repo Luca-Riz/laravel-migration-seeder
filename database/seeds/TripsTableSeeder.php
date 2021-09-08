@@ -20,7 +20,7 @@ class TripsTableSeeder extends Seeder
             // popolo con dati fake
             $newTrip->title = 'viaggio n. ' . $i;
             $newTrip->where = 'stato della pianeta terra  n.' . rand(1,195);
-            // $newTrip->cost = rand(50,10000) . '€';
+            $newTrip->cost = rand(50,100000);
             // $newTrip->from = '2021-10-01';
             // $newTrip->to = '2021-10-21';
             $newTrip->aviable = 1;
